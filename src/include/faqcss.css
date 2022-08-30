@@ -1,0 +1,89 @@
+
+.Collapsible {
+  background-color: white; 
+
+}
+
+
+
+.Collapsible__contentInner {
+  padding: 10px;
+  border: 8px solid #ffa800;
+  background-color : #ffa800 ;
+  margin-bottom: 1rem;
+  border-top: 0; }
+  .Collapsible__contentInner p {
+    background-color : #ffa800 ;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 20px; 
+  }
+    .Collapsible__contentInner p:last-child {
+      margin-bottom: 0; }
+
+.Collapsible__trigger {
+  display: block;
+  font-weight: 400;
+  text-decoration: none;
+  color: #080808;
+  position: relative;
+  border: 8px solid #ffa800;
+  padding: 10px;
+  background: rgb(255, 255, 255);
+  margin-bottom: 1rem;
+  color: rgb(19, 18, 18);
+  
+ }
+
+
+ .Collapsible__contentInner p
+{
+  color: #141313 !important;
+  /* margin: 0px; */
+  /* line-height: 1.5; */
+}
+ 
+.Collapsible__trigger.is-open {
+    margin: 0px;
+    background-color: #ffa800;
+}
+
+ 
+  .Collapsible__trigger:after {
+    /* font-family: 'FontAwesome';
+    content: '\f077';
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    display: block;  
+   */
+
+   font-family: "Font Awesome 5 Free";
+   /* content: "\f077"; */
+   display: inline-block;
+   padding-right: 3px;
+   vertical-align: middle;
+   font-weight:900;
+
+
+    transition: transform 300ms; }
+  .Collapsible__trigger.is-open:after {
+    
+       transform: rotateZ(180deg); }
+  .Collapsible__trigger.is-disabled {
+    opacity: 0.5;
+    /* background-color: rgb(248, 242, 242);  */
+  }
+
+.CustomTriggerCSS {
+  background-color: lightcoral;
+  transition: background-color 200ms ease; }
+
+.CustomTriggerCSS--open {
+  background-color: darkslateblue; }
+
+.Collapsible__custom-sibling {
+  padding: 5px;
+  font-size: 12px;
+  background-color: #CBB700;
+  color: black; }
